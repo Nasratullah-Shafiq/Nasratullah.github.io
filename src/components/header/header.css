@@ -1,0 +1,32 @@
+header{
+    height: 100vh;
+    background-color: #646464;
+    background-repeat: no-repeat;    background-image: url('../../assets/images/hero-bg.jpg');
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    color: #fff;
+    text-align: center;
+}
+.navbar-container{
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+} 
+.navbar .nav-link{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+.hero-title{
+    font-size:3.5rem;
+    padding-top: 350px;
+}
+.hero-desc{
+    padding-top: 15px;
+}
